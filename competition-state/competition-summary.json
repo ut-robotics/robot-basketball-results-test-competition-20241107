@@ -5,7 +5,9 @@
     {"id": "plus-aura", "name": "+aura"},
     {"id": "beat-diesel", "name": "Beat Diesel"},
     {"id": "harm", "name": "HARM"},
-    {"id": "k4", "name": "K4"}
+    {"id": "k4", "name": "K4"},
+    {"id": "mait", "name": "Mait"},
+    {"id": "marvin", "name": "Marvin"}
   ],
   "tournament": null
 }
