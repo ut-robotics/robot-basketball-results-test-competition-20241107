@@ -883,10 +883,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 3,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1731006958939, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -984,64 +984,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 11,
+    "id": 12,
     "robots": [
-      {"id": "warcrime", "name": "Warcrime"},
-      {"id": "roboorikud", "name": "Roboorikud"}
+      {"id": "pelta-x", "name": "Pelta X"},
+      {"id": "marvin", "name": "Marvin"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [],
-          [
-            {"time": 1731006571164, "isValid": true},
-            {"time": 1731006585857, "isValid": true},
-            {"time": 1731006596685, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60019,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1731006536217, "endTime": 1731006596236}]
-      },
-      {
-        "scores": [[], [{"time": 1731006705743, "isValid": true}]],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60022,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1731006690089, "endTime": 1731006750111}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1731006958939, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "roboorikud", "name": "Roboorikud"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.6, -0.68],
-      [-1.6, 0.68],
-      [-0.59, -0.81],
-      [0.59, 0.81],
-      [-1.59, -0.41],
-      [1.59, 0.41],
-      [0.4, -1.01],
-      [-0.4, 1.01],
-      [0.81, 0.6],
-      [-0.81, -0.6]
+      [-1.47, -0.3],
+      [1.47, 0.3],
+      [-2.16, 0.71],
+      [2.16, -0.71],
+      [-1.22, 0.19],
+      [1.22, -0.19],
+      [0.98, -0.9],
+      [-0.98, 0.9],
+      [0.21, 1.41],
+      [-0.21, -1.41]
     ]
   }
 }
