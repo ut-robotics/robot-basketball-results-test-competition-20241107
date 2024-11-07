@@ -60,7 +60,7 @@
           {"time": 1731010247173, "isValid": true},
           {"time": 1731010251886, "isValid": true}
         ],
-        []
+        [{"time": 1731010263195, "isValid": true}]
       ],
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
