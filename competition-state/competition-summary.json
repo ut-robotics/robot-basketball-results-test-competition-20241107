@@ -447,10 +447,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 10,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1731004191401, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -548,62 +548,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 5,
+    "id": 6,
     "robots": [
-      {"id": "wineeurope", "name": "WineEurope"},
-      {"id": "oopsie", "name": "Oopsie"}
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "beat-diesel", "name": "Beat Diesel"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [[], []],
         "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60012,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1731003466703, "endTime": 1731003526715}]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60104,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 10,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1731003568452, "endTime": 1731003628556}]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60039,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1731003668610, "endTime": 1731003728649}]
+        "runs": [{"startTime": 1731004191401, "endTime": null}]
       }
     ],
-    "status": {"result": "tied"},
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.77, -1.37],
-      [-1.77, 1.37],
-      [1.98, 0.87],
-      [-1.98, -0.87],
-      [-0.36, 0.95],
-      [0.36, -0.95],
-      [1.84, 0.53],
-      [-1.84, -0.53],
-      [1.02, -1.2],
-      [-1.02, 1.2]
+      [1.15, -0.24],
+      [-1.15, 0.24],
+      [0.34, 1.22],
+      [-0.34, -1.22],
+      [-1.56, 0.56],
+      [1.56, -0.56],
+      [1.96, 0.89],
+      [-1.96, -0.89],
+      [0.97, 0.53],
+      [-0.97, -0.53]
     ]
   }
 }
