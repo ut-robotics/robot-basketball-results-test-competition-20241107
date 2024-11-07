@@ -15,5 +15,96 @@
     {"id": "warcrime", "name": "Warcrime"},
     {"id": "wineeurope", "name": "WineEurope"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 4,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "pelta-x", "name": "Pelta X"},
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "k4", "name": "K4"},
+      {"id": "harm", "name": "HARM"},
+      {"id": "warcrime", "name": "Warcrime"},
+      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+      {"id": "roboorikud", "name": "Roboorikud"},
+      {"id": "mait", "name": "Mait"},
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "beat-diesel", "name": "Beat Diesel"}
+    ],
+    "roundCount": 4,
+    "games": [],
+    "byes": [],
+    "robotScores": [
+      {
+        "robot": {"id": "pelta-x", "name": "Pelta X"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "plus-aura", "name": "+aura"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {"robot": {"id": "k4", "name": "K4"}, "score": 0, "tieBreakScore": 0},
+      {"robot": {"id": "harm", "name": "HARM"}, "score": 0, "tieBreakScore": 0},
+      {
+        "robot": {"id": "warcrime", "name": "Warcrime"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {
+          "id": "sometimes-lose-always-win",
+          "name": "Sometimes Lose Always Win"
+        },
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "roboorikud", "name": "Roboorikud"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {"robot": {"id": "mait", "name": "Mait"}, "score": 0, "tieBreakScore": 0},
+      {
+        "robot": {"id": "wineeurope", "name": "WineEurope"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "oopsie", "name": "Oopsie"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "marvin", "name": "Marvin"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "beat-diesel", "name": "Beat Diesel"},
+        "score": 0,
+        "tieBreakScore": 0
+      }
+    ],
+    "robotStartingBaskets": {
+      "pelta-x": [],
+      "plus-aura": [],
+      "k4": [],
+      "harm": [],
+      "warcrime": [],
+      "sometimes-lose-always-win": [],
+      "roboorikud": [],
+      "mait": [],
+      "wineeurope": [],
+      "oopsie": [],
+      "marvin": [],
+      "beat-diesel": []
+    },
+    "hasEnded": false
+  }
 }

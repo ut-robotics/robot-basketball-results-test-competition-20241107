@@ -15,5 +15,43 @@
     {"id": "warcrime", "name": "Warcrime"},
     {"id": "wineeurope", "name": "WineEurope"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 4,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "pelta-x", "name": "Pelta X"},
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "k4", "name": "K4"},
+      {"id": "harm", "name": "HARM"},
+      {"id": "warcrime", "name": "Warcrime"},
+      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+      {"id": "roboorikud", "name": "Roboorikud"},
+      {"id": "mait", "name": "Mait"},
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "beat-diesel", "name": "Beat Diesel"}
+    ],
+    "roundCount": 4,
+    "gameIDs": [],
+    "byes": [],
+    "robotStartingBaskets": {
+      "pelta-x": [],
+      "plus-aura": [],
+      "k4": [],
+      "harm": [],
+      "warcrime": [],
+      "sometimes-lose-always-win": [],
+      "roboorikud": [],
+      "mait": [],
+      "wineeurope": [],
+      "oopsie": [],
+      "marvin": [],
+      "beat-diesel": []
+    },
+    "hasEnded": false
+  }
 }
