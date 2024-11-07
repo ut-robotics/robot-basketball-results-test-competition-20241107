@@ -1,0 +1,34 @@
+{
+  "id": 21,
+  "robots": [
+    {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+    {"id": "oopsie", "name": "Oopsie"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.05, 1.27],
+    [-1.05, -1.27],
+    [-1.73, -1.03],
+    [1.73, 1.03],
+    [0.86, -0.74],
+    [-0.86, 0.74],
+    [-1.05, 1.28],
+    [1.05, -1.28],
+    [-1.4, 1.19],
+    [1.4, -1.19]
+  ]
+}

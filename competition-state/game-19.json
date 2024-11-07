@@ -1,0 +1,34 @@
+{
+  "id": 19,
+  "robots": [
+    {"id": "plus-aura", "name": "+aura"},
+    {"id": "harm", "name": "HARM"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.89, -0.93],
+    [0.89, 0.93],
+    [0.21, -1.24],
+    [-0.21, 1.24],
+    [-1.01, 1.44],
+    [1.01, -1.44],
+    [-1.23, -0.96],
+    [1.23, 0.96],
+    [-0.95, 1.15],
+    [0.95, -1.15]
+  ]
+}
