@@ -36,21 +36,21 @@
       {"id": "beat-diesel", "name": "Beat Diesel"}
     ],
     "roundCount": 4,
-    "gameIDs": [],
+    "gameIDs": [1, 2, 3, 4, 5, 6],
     "byes": [],
     "robotStartingBaskets": {
-      "pelta-x": [],
-      "plus-aura": [],
-      "k4": [],
-      "harm": [],
-      "warcrime": [],
-      "sometimes-lose-always-win": [],
-      "roboorikud": [],
-      "mait": [],
-      "wineeurope": [],
-      "oopsie": [],
-      "marvin": [],
-      "beat-diesel": []
+      "pelta-x": ["magenta"],
+      "plus-aura": ["blue"],
+      "k4": ["magenta"],
+      "harm": ["blue"],
+      "warcrime": ["blue"],
+      "sometimes-lose-always-win": ["magenta"],
+      "roboorikud": ["blue"],
+      "mait": ["magenta"],
+      "wineeurope": ["magenta"],
+      "oopsie": ["blue"],
+      "marvin": ["blue"],
+      "beat-diesel": ["magenta"]
     },
     "hasEnded": false
   }
