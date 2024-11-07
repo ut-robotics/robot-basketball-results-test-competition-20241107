@@ -1086,10 +1086,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 12,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1731008561658, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1295,57 +1295,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 14,
+    "id": 15,
     "robots": [
-      {"id": "plus-aura", "name": "+aura"},
-      {"id": "warcrime", "name": "Warcrime"}
+      {"id": "harm", "name": "HARM"},
+      {"id": "wineeurope", "name": "WineEurope"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[], [{"time": 1731008376149, "isValid": true}]],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 14543,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 13,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1731008362844, "endTime": 1731008377387}]
-      },
-      {
-        "scores": [[], [{"time": 1731008488285, "isValid": true}]],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 20303,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1731008469001, "endTime": 1731008489304}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1731008561658, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "warcrime", "name": "Warcrime"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.52, 0.67],
-      [-1.52, -0.67],
-      [0.13, -0.94],
-      [-0.13, 0.94],
-      [-1.08, -0.72],
-      [1.08, 0.72],
-      [-0.02, 0.56],
-      [0.02, -0.56],
-      [0.99, 0.31],
-      [-0.99, -0.31]
+      [2.04, 0.71],
+      [-2.04, -0.71],
+      [-0.24, 0.53],
+      [0.24, -0.53],
+      [1.9, -1.03],
+      [-1.9, 1.03],
+      [-1.3, -0.54],
+      [1.3, 0.54],
+      [1.6, 1.31],
+      [-1.6, -1.31]
     ]
   }
 }
