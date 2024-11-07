@@ -7,7 +7,9 @@
     {"id": "harm", "name": "HARM"},
     {"id": "k4", "name": "K4"},
     {"id": "mait", "name": "Mait"},
-    {"id": "marvin", "name": "Marvin"}
+    {"id": "marvin", "name": "Marvin"},
+    {"id": "oopsie", "name": "Oopsie"},
+    {"id": "pelta-x", "name": "Pelta X"}
   ],
   "tournament": null
 }
